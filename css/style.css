@@ -3,3 +3,10 @@
     border: 2px dashed #808080;
     min-height: 100px;
 }
+
+[class*='col']{
+    min-height: 150px;
+    background-color: #ffc0cb;
+    border: 1px solid #000;
+}
+
