@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
  /** UTILS **/
@@ -10,7 +11,7 @@
 /* Classic container */
 .container{
     width: 100%;
-    max-width: 900px;
+    max-width: 1070px;
     margin: 2px auto;
 }
 /*  container fluid */
@@ -93,11 +94,58 @@
     width: calc(100%/12 * 1);
     max-width: calc(100%/12 * 1);
 }
-/**  flex col align center **/
+/** Utilities **/
+
+/**  flex row align center **/
 .flex-center{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
+
+/**  flex row align start **/
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/**  flex row align  **/
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/** Floats**/
+.fl-left{
+    float: left;
+}
+.fl-right{
+    float: right;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+/** Fonts size**/
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 4em;
+}
+h3{
+    font-size: 3em;
+}
+h4{
+    font-size: 2em;
+}
