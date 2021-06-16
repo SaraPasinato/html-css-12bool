@@ -1,0 +1,19 @@
+/* Reset box sizing */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Classic container */
+.container{
+    width: 100%;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+/*  container fluid */
+
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
