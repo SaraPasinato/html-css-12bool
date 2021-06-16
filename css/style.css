@@ -1,6 +1,6 @@
 .container,
 .container-fluid{
-    border: 2px dashed #808080;
+  
     min-height: 100px;
 }
 
@@ -8,5 +8,11 @@
     min-height: 150px;
     background-color: #ffc0cb;
     border: 1px solid #000;
+    padding: 5px;
 }
 
+[class*='col'] [class*='col']{
+    min-height: 150px;
+    background-color: #d87093;
+    border: 1px solid #fff;
+}

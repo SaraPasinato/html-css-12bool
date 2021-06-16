@@ -10,8 +10,8 @@
 /* Classic container */
 .container{
     width: 100%;
-    max-width: 1070px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 2px auto;
 }
 /*  container fluid */
 
@@ -27,7 +27,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    
 }
 
 /** COL (no-resizing)  flex **/
@@ -99,4 +98,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
