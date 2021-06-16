@@ -17,3 +17,10 @@
     max-width: 100%;
     margin: 0;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+}
