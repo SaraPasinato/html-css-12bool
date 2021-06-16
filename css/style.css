@@ -1,0 +1,5 @@
+.container,
+.container-fluid{
+    border: 2px dashed #808080;
+    min-height: 100px;
+}
