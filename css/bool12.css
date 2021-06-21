@@ -12,7 +12,7 @@
 .container{
     width: 100%;
     max-width: 1200px;
-    margin: 2px auto;
+    margin: 20px auto;
 }
 /*  container fluid */
 
@@ -136,7 +136,97 @@
 .col-offeset-xl-1{
     margin-left:calc(100%/12 * 1);
 }
+/*! Flex  12 col layout system */
+@media screen and (max-width: 575) {
+    
 
+.col-xs-12{
+    width: calc(100%/12 * 12);
+    max-width: calc(100%/12 * 12);
+}
+.col-xs-11{
+    width: calc(100%/12 * 11);
+    max-width: calc(100%/12 * 11);
+}
+.col-xs-10{
+    width: calc(100%/12 * 10);
+    max-width: calc(100%/12 * 10);
+}
+.col-xs-9{
+    width: calc(100%/12 * 9);
+    max-width: calc(100%/12 * 9);
+}
+.col-xs-8{
+    width: calc(100%/12 * 8);
+    max-width: calc(100%/12 * 8);
+}
+.col-xs-7{
+    width: calc(100%/12 * 7);
+    max-width: calc(100%/12 * 7);
+}
+
+.col-xs-6{
+    width: calc(100%/12 * 6);
+    max-width: calc(100%/12 * 6);
+}
+.col-xs-5{
+    width: calc(100%/12 * 5);
+    max-width: calc(100%/12 * 5);
+}
+.col-xs-4{
+    width: calc(100%/12 * 4);
+    max-width: calc(100%/12 * 4);
+}
+.col-xs-3{
+    width: calc(100%/12 * 3);
+    max-width: calc(100%/12 * 3);
+}
+.col-xs-2{
+    width: calc(100%/12 * 2);
+    max-width: calc(100%/12 * 2);
+}
+.col-xs-1{
+    width: calc(100%/12 * 1);
+    max-width: calc(100%/12 * 1);
+}
+/*! Offset*/
+.col-offeset-xs-12{
+    margin-left:calc(100%/12 * 12);
+}
+.col-offeset-xs-10{
+    margin-left:calc(100%/12 * 10);
+}
+.col-offeset-xs-11{
+    margin-left:calc(100%/12 * 11);
+}
+.col-offeset-xs-9{
+    margin-left:calc(100%/12 * 9);
+}
+.col-offeset-xs-8{
+    margin-left:calc(100%/12 * 8);
+}
+.col-offeset-xs-7{
+    margin-left:calc(100%/12 * 7);
+}
+.col-offeset-xs-6{
+    margin-left:calc(100%/12 * 6);
+}
+.col-offeset-xs-5{
+    margin-left:calc(100%/12 * 5);
+}
+.col-offeset-xs-4{
+    margin-left:calc(100%/12 * 4);
+}
+.col-offeset-xs-3{
+    margin-left:calc(100%/12 * 3);
+}
+.col-offeset-xs-2{
+    margin-left:calc(100%/12 * 2);
+}
+.col-offeset-xs-1{
+    margin-left:calc(100%/12 * 1);
+ }
+}
 /*! Breakpoint */
 /*? Brackpoint medium */
 
@@ -360,7 +450,7 @@
 
 /*? Brackpoint sm */
 
-@media screen and(min-width:575px){
+@media screen and(min-width:576px){
     /*  flex col 12 grid system */
     .col-sm{
         flex-grow: 1;

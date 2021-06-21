@@ -1,18 +1,79 @@
 .container,
 .container-fluid{
-  
     min-height: 100px;
 }
 
 [class*='col']{
     min-height: 150px;
-    background-color: #ffc0cb;
-    border: 1px solid #000;
+   
     padding: 5px;
 }
 
 [class*='col'] [class*='col']{
     min-height: 150px;
-    background-color: #d87093;
-    border: 1px solid #fff;
+}
+
+.pond{
+    background-color: #1F5768;
+  
+  }
+  
+  [class*="col"] .lilypad {
+    background-color: none;
+    border: none;
+  }
+
+  .lilypad{
+    background-image: url("../img/lilypad-green.svg");
+    flex-basis: 16%;
+    max-height: 100%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    
+}
+
+.forg.green{
+    background-image: url("../img/frog-green.svg");
+    min-width: 74%;
+    min-height: 31%;
+    background-position: center center;
+    background-size: 60% 100%;
+
+    background-repeat: no-repeat;
+  
+}
+p{
+    font-size: 10px;
+    visibility: hidden;
+}
+
+.pond:hover p,
+.grass:hover p,
+.forg.green:hover p{
+   visibility: visible;
+}
+
+.grass{
+    background-color: green;
+    border-radius: 30px;
+   
+}
+
+.loto{
+    background-image: url("../img/pngaaa.com-2111867.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.grass.loto{
+    border-radius: 10px;
+    border: none;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
 }
